@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900);
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #215D6E;
+  color: #6D9F94;
+  font-family: "Raleway", "Trebuchet MS", sans-serif;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(109, 159, 148, 0.8);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+h1, h2, h3 {
+  color: #83ada4;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+  word-spacing: .5em;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  display: inline-block;
+  padding: 1em .1em;
+  color: #EFEFBF;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px #215D6E;
+}
+
+.spacer {
+  padding: 2em 1em;
+}
