@@ -3,10 +3,10 @@
   $.fn.stickup = function() {
     var stick = {
       //initialize the sticky nav
-      init: function(){
+      init: function(navigation){
         //cache variables
         stick.doc = $(document);
-        stick.nav = $('.nav');
+        stick.nav = navigation;
         //set the height of the nav
         stick.navH = null;
         //starting scroll up/down positions
