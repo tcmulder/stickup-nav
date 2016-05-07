@@ -2,7 +2,7 @@
 _a jQuery plugin_
 
 
-# Description
+## Description
 Here's a script that adds a sticky nav with a twist:
 * The nav disappears as you scroll down.
 * As you scroll up, it reappears, no matter how far down you're scrolled.
@@ -10,7 +10,9 @@ Here's a script that adds a sticky nav with a twist:
 ## Demo
 Have a look at the [demo](http://tcmulder.github.io/stickup-nav/demo/index.html) or play around with the code on [codepen](http://codepen.io/tcmulder/pen/blzrc).
 
-## 1. Set up your JavaScript
+## Usage
+
+### 1. Set up your JavaScript
 Load jQuery and include Stickup Sticky Navigation plugin files.
 
 ```html
